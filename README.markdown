@@ -8,6 +8,8 @@ Since it's just regular bootstrap you can of course add any bootstrap theme now 
 
 ### To Do
 
+Feel free to fork and submit back pull requests.
+
 * It's still a bit rough around the edges, could use some cleanup (there may be some stuff that is specific to my site in there)
 * Unfortunately Bootstrap uses Less and Octopress uses Sass, so for right now I've just included plain CSS from bootstrap.  This works fine but ideally down the road it would use a forked Sass version of bootstrap or modify Octopress to include Less support.  One caveat is that it should ideally still work with the free bootstrap themes such as [bootswatch.com](http://bootswatch.com/).  So there may be some happy combination here.
 
