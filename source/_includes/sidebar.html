@@ -1,5 +1,5 @@
 {% unless page.sidebar == false %}
-  <div class="span4 sidebar">
+  <div class="span{{ site.sidebar_width or 4 }} sidebar">
     <div class="well">
       {% if site.page_asides.size %}
         {% include_array page_asides %}
